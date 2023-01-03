@@ -3,9 +3,12 @@ import MeuMulti from "../../../public/meu-multi.svg";
 
 const HomeTemplate = () => {
   return (
-    <S.Teste>
-      <h1>Hi</h1>
-    </S.Teste>
+    <S.Wrapper>
+      <S.Container></S.Container>
+      <S.FindOrder>
+        <MeuMulti width={"29rem"} height={"auto"} />
+      </S.FindOrder>
+    </S.Wrapper>
   );
 };
 

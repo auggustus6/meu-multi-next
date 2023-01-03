@@ -11,7 +11,9 @@ export default {
       "Roboto, Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
     light: 300,
     normal: 400,
-    bold: 600,
+    semibold: 600,
+    bold: 700,
+
     sizes: {
       xxsmall_xs: "0.5rem",
       xsmall_s: "0.875rem",
@@ -34,9 +36,10 @@ export default {
     black: "#141414",
     gray: "#7B7B7B",
     lightGray: "#E5E5E5",
+    cardBorder: "#d8d8d8",
     dangerDark: "#f13003b",
     textColor: "#474747",
-    red: "#BC0000"
+    red: "#BC0000",
   },
   spacings: {
     xxsmall: "0.4rem",
