@@ -55,7 +55,7 @@ const GlobalStyles: GlobalStyleComponent<
   h5{
     font-size: 1.44rem;
   }
-  
+
   h6{
     font-size: 1.2rem;
   }
@@ -80,11 +80,11 @@ const GlobalStyles: GlobalStyleComponent<
     cursor:pointer;
     outline:none;
   }
-  
+
   a{
     text-decoration: none;
   }
-  
+
   ::-webkit-scrollbar {
     width: 5px;
   }
@@ -98,7 +98,7 @@ const GlobalStyles: GlobalStyleComponent<
   ::-webkit-scrollbar-thumb:hover {
     background: #868585;
   }
-  
+
   @media (max-width: 1080px) {
     html {
       font-size: 93.75%;
@@ -107,7 +107,7 @@ const GlobalStyles: GlobalStyleComponent<
   @media (max-width: 720px) {
     html {
       font-size: 87.5%;
-    }  
+    }
   }
 
   tr:nth-child(even) {

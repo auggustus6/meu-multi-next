@@ -20,6 +20,7 @@ export const CardInfoContainer = styled.div<FlexProps>`
   h4 {
     margin-bottom: 2rem;
     font-size: 1.125rem;
+    font-weight: 700;
   }
 
   p {

@@ -40,6 +40,10 @@ export default {
     dangerDark: "#f13003b",
     textColor: "#474747",
     red: "#BC0000",
+    evaluateService: "#7AB9EE",
+    fidelity: "#124D7E",
+    contact: "#3CA0F4",
+    multi: "#20659F",
   },
   spacings: {
     xxsmall: "0.4rem",
