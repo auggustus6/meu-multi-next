@@ -21,10 +21,12 @@ export const CardInfoContainer = styled.div<FlexProps>`
     margin-bottom: 2rem;
     font-size: 1.125rem;
     font-weight: 700;
+    color: ${theme.colors.darkFull};
   }
 
-  p {
+  p:not(:last-child) {
     font-size: 1.125rem;
-    color: ${theme.colors.black};
+    color: ${theme.colors.darkFull};
+    margin-bottom: 10px;
   }
 `;

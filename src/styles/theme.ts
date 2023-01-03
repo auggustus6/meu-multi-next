@@ -28,6 +28,8 @@ export default {
   },
   colors: {
     primary: "#3787FF",
+    darkFull: "#000000",
+    title: "#20659F",
     secondary: "#E8A635",
     green: "#83DB43",
     darkGreen: "#6BC52B",

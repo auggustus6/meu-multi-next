@@ -3,75 +3,45 @@ import theme from "styles/theme";
 
 export const ContainerOrderTemplate = styled.div`
   display: flex;
-  padding: 0 4rem;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 5rem;
+  min-height: 100vh;
 
-  @media (max-width: 800px) {
+  @media (max-width: 1280px) {
+    flex-direction: column;
+  }
+
+  @media (max-width: 600px) {
     padding: 0 1rem;
   }
 `;
 
-export const Orders = styled.div`
-  display: flex;
+export const Oders = styled.div`
+  border: 1px solid red;
+  flex: 1;
+`;
 
-  @media (max-width: 800px) {
-    flex-direction: column;
-  }
+export const UpdatesOrder = styled.div`
+  border: 1px solid green;
+  flex: 1;
 `;
 
 export const About = styled.div`
-  display: flex;
+  padding-top: 30px;
 `;
 
-export const ContainerCard = styled.div`
+export const HorizontalGroup = styled.div`
   display: flex;
-  gap: 2rem;
-  margin-bottom: 4rem;
+  gap: 20px;
+  margin-bottom: 30px;
 
-  .blueBold {
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+
+  .blue-bold {
     color: ${theme.colors.primary};
     font-weight: 700;
     font-size: 1.25rem;
-  }
-`;
-
-export const ContainerOrder = styled.div`
-  width: 50%;
-
-  @media (max-width: 950px) {
-    width: 100%;
-  }
-`;
-
-export const ContainerUpdate = styled.div`
-  width: 50%;
-  margin-left: 5rem;
-
-  @media (max-width: 800px) {
-    margin: 0;
-  }
-`;
-
-export const InfoContent = styled.div`
-  p:not(:last-child) {
-    font-size: 1.125rem;
-    margin-bottom: 0.7rem;
-  }
-`;
-
-export const ContainerCardAbout = styled.div`
-  width: 100%;
-  max-width: 43rem;
-  margin-top: 3rem;
-`;
-
-export const ContainerCards = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-
-  @media (max-width: 570px) {
-    grid-template-columns: 1fr;
   }
 `;

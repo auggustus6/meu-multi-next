@@ -5,6 +5,7 @@ type BackgroundType = typeof theme.colors;
 
 interface CardAboutContainerProps {
   cardBackground: keyof BackgroundType;
+  flex: number;
 }
 
 export const CardAboutContainer = styled.div<CardAboutContainerProps>`
@@ -14,6 +15,7 @@ export const CardAboutContainer = styled.div<CardAboutContainerProps>`
   padding: 2rem;
   border-radius: 10px;
   border: 1px solid #d8d8d8;
+  flex: ${(p) => p.flex};
 
   p {
     color: ${theme.colors.white};

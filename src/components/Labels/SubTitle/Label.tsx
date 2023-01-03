@@ -8,8 +8,8 @@ interface LabelProps {
   color?: keyof ColorsType;
 }
 
-const Label = ({ children, color = "black" }: LabelProps) => {
+const SubTitle = ({ children, color = "black" }: LabelProps) => {
   return <S.Label $color={color}>{children}</S.Label>;
 };
 
-export default Label;
+export default SubTitle;

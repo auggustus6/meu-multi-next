@@ -7,11 +7,16 @@ type BackgroundType = typeof theme.colors;
 interface CardAboutContainerProps {
   cardBackground: keyof BackgroundType;
   children: React.ReactNode;
+  flex: number;
 }
 
-const CardAbout = ({ cardBackground, children }: CardAboutContainerProps) => {
+const CardAbout = ({
+  cardBackground,
+  children,
+  flex,
+}: CardAboutContainerProps) => {
   return (
-    <S.CardAboutContainer cardBackground={cardBackground}>
+    <S.CardAboutContainer cardBackground={cardBackground} flex={flex}>
       <StartIcon fontSize={"2.45rem"} />
       {children}
     </S.CardAboutContainer>
