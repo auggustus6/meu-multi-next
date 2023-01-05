@@ -3,6 +3,7 @@ import SubTitle from "components/Labels/SubTitle/Label";
 import CardInfo from "./components/CardInfo/CardInfo";
 import * as S from "./styles";
 import CardAbout from "./components/CardAbout/CardAbout";
+import Steps from "./components/Steps/Steps";
 
 const MyOrderTemplate = () => {
   return (
@@ -55,7 +56,11 @@ const MyOrderTemplate = () => {
         </S.About>
       </S.Oders>
       <S.UpdatesOrder>
-        <h1>Hi</h1>
+        <Title color="title">ATUALIZAÇÕES</Title>
+        <Steps />
+        <Steps />
+        <Steps />
+        <Steps />
       </S.UpdatesOrder>
     </S.ContainerOrderTemplate>
   );

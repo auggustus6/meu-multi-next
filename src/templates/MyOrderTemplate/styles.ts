@@ -17,12 +17,11 @@ export const ContainerOrderTemplate = styled.div`
 `;
 
 export const Oders = styled.div`
-  border: 1px solid red;
   flex: 1;
 `;
 
 export const UpdatesOrder = styled.div`
-  border: 1px solid green;
+  padding-left: 3rem;
   flex: 1;
 `;
 
